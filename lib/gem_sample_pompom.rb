@@ -1,5 +1,7 @@
 require "gem_sample_pompom/version"
 
 module GemSamplePompom
-  # Your code goes here...
+  def self.new_method
+    p "私はジェムです"
+  end
 end
